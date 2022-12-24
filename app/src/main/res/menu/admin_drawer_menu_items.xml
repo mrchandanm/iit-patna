@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/AdminAccounts"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        />
+    <item
+        android:id="@+id/AdminSettings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+
+        />
+    <item
+        android:id="@+id/MainApp"
+        android:title="Go to Main App"
+        android:icon="@drawable/ic_baseline_login_24"
+        />
+
+    <group>
+
+
+
+        <item
+            android:id="@+id/dev"
+            android:title="Design and Developed by chandan"
+            >
+            <menu>
+                <item
+                    android:title=" "
+                    />
+
+            </menu>
+        </item>
+
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/EE"
+        android:title="EE"/>
+    <item android:id="@+id/EEDirectory"
+        android:title="Directory"/>
+    <item android:id="@+id/EECourse"
+        android:title="Courses"/>
+    <item android:id="@+id/EENewsEvents"
+        android:title="News/Events"/>
+    <item android:id="@+id/EEPeople"
+        android:title="People">
+
+        <menu>
+            <item android:id="@+id/EEFaculty"
+                android:title="Faculty"/>
+            <item android:id="@+id/EEStaff"
+                android:title="Staff"/>
+            <item android:id="@+id/EEUGStudents"
+                android:title="UG Students">
+                <menu>
+                    <item android:id="@+id/EEBtech2021"
+                        android:title="B.Tech 2021"/>
+                    <item android:id="@+id/EEBtech2020"
+                        android:title="B.Tech 2020"/>
+                    <item android:id="@+id/EEBtech2019"
+                        android:title="B.Tech 2019"/>
+                    <item android:id="@+id/EEBtech2018"
+                        android:title="B.Tech 2018"/>
+                    <item android:id="@+id/EEBtech2017"
+                        android:title="B.Tech 2017"/>
+                    <item android:id="@+id/EEBtech2016"
+                        android:title="B.Tech 2016"/>
+                    <item android:id="@+id/EEBtech2015"
+                        android:title="B.Tech 2015"/>
+                    <item android:id="@+id/EEBtech2014"
+                        android:title="B.Tech 2014"/>
+                    <item android:id="@+id/EEBtech2013"
+                        android:title="B.Tech 2013"/>
+                    <item android:id="@+id/EEBtech2012"
+                        android:title="B.Tech 2012"/>
+                    <item android:id="@+id/EEBtech2011"
+                        android:title="B.Tech 2011"/>
+                    <item android:id="@+id/EEBtech2010"
+                        android:title="B.Tech 2010"/>
+                    <item android:id="@+id/EEBtech2009"
+                        android:title="B.Tech 2009"/>
+                </menu>
+            </item>
+            <item android:id="@+id/EEPGStudents"
+                android:title="PG Students"/>
+            <item android:id="@+id/EEPhdAlumini"
+                android:title="Ph.D Alumini"/>
+            <item android:id="@+id/EEPhdStudents"
+                android:title="Ph.D Students"/>
+
+
+        </menu>
+    </item>
+    <item android:id="@+id/EEFacilities"
+        android:title="Facilities"/>
+    <item android:id="@+id/EENewsandEvents"
+        android:title="News and Events"/>
+    <item android:id="@+id/EEAdmission"
+        android:title="Admission"/>
+    <item android:id="@+id/EEResearch"
+        android:title="Research"/>
+    <item android:id="@+id/EEUsefulLinks"
+        android:title="Useful links"/>
+    <item android:id="@+id/EEAwardsRecognition"
+        android:title="Awards and recognition"/>
+    <item android:id="@+id/EEOppurtinities"
+        android:title="Oppurtinities"/>
+
+
+
+
+
+
+</menu>

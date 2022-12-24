@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/drawable/btn_backgroud_state.xml" value="0.144" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/drawable/btn_state_color.xml" value="0.144" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.144" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_admin_cseactivity.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_admin_home.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_admin_login.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_cseactivity.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_eeeactivity.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_home.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_login.xml" value="0.12954253954681488" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/activity_signup.xml" value="0.10970081595648232" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/add_notice_layout.xml" value="0.13201754385964912" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/app_bar_main.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/bottom_navigation_layout.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/content_main.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/directory_faculty_row.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/ee_btech_2021_ug_row.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/ee_course_row.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_admin_notice_fragments.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_c_s_e.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_c_s_e_btech2020_u_g_students.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_c_s_e_btech2020_u_g_students_list_fragments.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_c_s_e_btech2021_u_g_students.xml" value="0.13289473684210526" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_c_s_e_btech2021_u_g_students_list.xml" value="0.12105263157894737" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_cse_c_s_e.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_e_e.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_e_e_btech2021_u_g_students.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_e_e_courses.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_e_e_directory.xml" value="0.10970081595648232" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_map.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_maps.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_media_coverage.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_n_i_r_f.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/fragment_notice_board.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/header.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/image_dialog_show.xml" value="0.1335978835978836" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/notice_layout.xml" value="0.13201754385964912" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/slider_item_layout.xml" value="0.12868747327917915" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/student_add_dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/layout/student_row_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/menu/admin_drawer_menu_items.xml" value="0.13201754385964912" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/menu/botton_navigation_menu.xml" value="0.1578125" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/menu/csemenu.xml" value="0.1" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/menu/drawer_menu_items.xml" value="0.12954253954681488" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/menu/eemenu.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91628/IITPatna/app/src/main/res/menu/navigation_items.xml" value="0.1578125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

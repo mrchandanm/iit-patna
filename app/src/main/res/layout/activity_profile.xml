@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ProfileActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_baseline_photo_camera_24"
+                />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="20dp"
+           >
+
+
+            <ImageView
+                android:id="@+id/profilepic"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/iitpmain"
+        android:layout_marginTop="5dp"/>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardCornerRadius="40dp"
+           app:cardBackgroundColor="@color/white"
+           android:layout_marginTop="10dp"
+           app:cardElevation="11dp">
+        <EditText
+            android:id="@+id/edtprofilename"
+            android:layout_width="match_parent"
+            android:paddingStart="15dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Name"
+            android:textColorHint="#5C5C5C"
+            android:backgroundTint="@color/iitpmain"
+         />
+       </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardCornerRadius="40dp"
+       android:layout_marginTop="10dp"
+       app:cardBackgroundColor="@color/white"
+       app:cardElevation="11dp">
+
+        <EditText
+            android:id="@+id/edtprofilebranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Branch"
+            android:paddingStart="15dp"
+            android:textColorHint="#5C5C5C"
+            android:backgroundTint="@color/iitpmain"
+          />
+   </androidx.cardview.widget.CardView>
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardCornerRadius="40dp"
+       android:layout_marginTop="10dp"
+       app:cardBackgroundColor="@color/white"
+       app:cardElevation="11dp">
+
+        <EditText
+            android:id="@+id/edtprofiledepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Department"
+            android:paddingStart="15dp"
+            android:textColorHint="#5C5C5C"
+            android:backgroundTint="@color/iitpmain"
+          />
+   </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="11dp">
+
+        <EditText
+            android:id="@+id/edtprofileroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Roll No."
+            android:textColorHint="#5C5C5C"
+            android:paddingStart="15dp"
+            android:backgroundTint="@color/iitpmain"
+           />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="11dp">
+
+        <EditText
+            android:id="@+id/edtprofileiitpemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="IITP email"
+            android:paddingStart="15dp"
+            android:textColorHint="#5C5C5C"
+            android:backgroundTint="@color/iitpmain"
+          />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="30dp">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsaveprofile"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/iitpmain"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+
+       />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

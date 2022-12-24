@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MytoolbarStyle" parent="android:Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/iitpsecondarymain</item>
+
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+</resources>

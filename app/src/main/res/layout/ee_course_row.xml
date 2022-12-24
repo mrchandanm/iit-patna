@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+
+        app:cardElevation="1dp">
+
+       <LinearLayout
+           android:layout_marginStart="2dp"
+           android:layout_marginRight="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:id="@+id/SemesterLayout">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="branch"
+               android:textSize="16sp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:id="@+id/branch"
+               android:background="@color/iitpmain"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dropdown2"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/EESemester"
+        android:text="Semester"
+        android:layout_margin="3dp"
+        android:textSize="18sp"
+
+
+        android:textColor="@color/white"
+        />
+</LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:id="@+id/CourseExpandableList"
+               android:layout_marginTop="4dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/EECourseName1"
+                   android:background="@color/iitpmain"
+                   android:textColor="@color/white"
+                   android:text="EE Courses Name 1"
+                   android:textSize="27sp"/>
+               <TextView
+                   android:id="@+id/EECourses1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourseName1"
+                   android:text="Course1"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourses1"
+                   android:id="@+id/TextReference"
+                   android:textColor="#090909"
+                   android:background="#BDBDBD"
+                   android:text="Text/Reference"
+                   android:textSize="30sp"/>
+               <TextView
+                   android:id="@+id/Reference1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="#DFDDDD"
+                   android:layout_below="@id/TextReference"
+                   android:text="Reference"
+                   android:textSize="22sp"/>
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/EECourseName2"
+                   android:background="@color/iitpmain"
+                   android:textColor="@color/white"
+                   android:text="EE Courses Name 2"
+                   android:textSize="27sp"/>
+               <TextView
+                   android:id="@+id/EECourses2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourseName1"
+                   android:text="Course1"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourses1"
+                   android:id="@+id/TextReference2"
+                   android:textColor="#090909"
+                   android:background="#BDBDBD"
+                   android:text="Text/Reference"
+                   android:textSize="30sp"/>
+               <TextView
+                   android:id="@+id/Reference2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/TextReference"
+                   android:text="Reference"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/EECourseName3"
+                   android:background="@color/iitpmain"
+                   android:textColor="@color/white"
+                   android:text="EE Courses Name 3"
+                   android:textSize="27sp"/>
+               <TextView
+                   android:id="@+id/EECourses3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourseName3"
+                   android:text="Course1"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourses1"
+                   android:id="@+id/TextReference3"
+                   android:textColor="#090909"
+                   android:background="#BDBDBD"
+                   android:text="Text/Reference"
+                   android:textSize="30sp"/>
+               <TextView
+                   android:id="@+id/Reference3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/TextReference"
+                   android:text="Reference"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/EECourseName4"
+                   android:background="@color/iitpmain"
+                   android:textColor="@color/white"
+                   android:text="EE Courses Name 4"
+                   android:textSize="27sp"/>
+               <TextView
+                   android:id="@+id/EECourses4"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourseName1"
+                   android:text="Course1"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourses1"
+                   android:id="@+id/TextReference4"
+                   android:textColor="#090909"
+                   android:background="#BDBDBD"
+                   android:text="Text/Reference"
+                   android:textSize="30sp"/>
+               <TextView
+                   android:id="@+id/Reference4"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/TextReference"
+                   android:text="Reference"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/EECourseName5"
+                   android:background="@color/iitpmain"
+                   android:textColor="@color/white"
+                   android:text="EE Courses Name 4"
+                   android:textSize="27sp"/>
+               <TextView
+                   android:id="@+id/EECourses5"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourseName1"
+                   android:text="Course1"
+                   android:textSize="22sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/EECourses1"
+                   android:id="@+id/TextReference5"
+                   android:text="Text/Reference"
+                   android:textSize="30sp"/>
+               <TextView
+                   android:id="@+id/Reference5"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/TextReference"
+                   android:textColor="#090909"
+                   android:background="#BDBDBD"
+                   android:text="Reference"
+                   android:textSize="22sp"/>
+
+
+
+
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

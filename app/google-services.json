@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664731494794",
+    "project_id": "iit-patna-eaed8",
+    "storage_bucket": "iit-patna-eaed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664731494794:android:e493e5a726c3a8de1d4073",
+        "android_client_info": {
+          "package_name": "com.example.iitpatna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664731494794-7o52a2btmrmtf7c36m1n76p3e68gtbim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmEC75U1eTKHQ5puRFBejj6msZarcDIr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664731494794-7o52a2btmrmtf7c36m1n76p3e68gtbim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

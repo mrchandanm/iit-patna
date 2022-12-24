@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+       />
+    <group>
+
+    <item
+        android:id="@+id/TheInstitute"
+        android:title="The Institute"
+        android:icon="@drawable/institute"
+
+        >
+        <menu>
+
+            <item android:id="@+id/AboutUs"
+                android:title="About Us"/>
+            <item android:id="@+id/AboutIITPLogo"
+                android:title="About IITP Logo"/>
+            <item android:id="@+id/Administration"
+                android:title="Administration">
+
+                <menu>
+                    <item android:id="@+id/BoardOfGoverners"
+                        android:title="Board Of Governers"/>
+                    <item android:id="@+id/FinanceCommitte"
+                        android:title="FinanceCommitte"/>
+                    <item android:id="@+id/Administrators"
+                        android:title="Administrators"/>
+                    <item android:id="@+id/OfficeOfRegistar"
+                        android:title="Office Of Registar"/>
+                    <item android:id="@+id/HeadsOfDepartments"
+                        android:title="HeadsOfDepartments"/>
+                    <item android:id="@+id/AdministrativeUnits"
+                        android:title="Administrative Units"/>
+                    <item android:id="@+id/ActsAndStatues"
+                        android:title="Acts And Statues"/>
+
+                </menu>
+            </item>
+
+            <item android:id="@+id/HistoryOfPatna"
+                android:title="History Of Patna"/>
+
+
+            <item android:id="@+id/Reports"
+                android:title="Reports">
+
+                <menu>
+                    <item android:id="@+id/Impulse"
+                        android:title="Impulse"/>
+                    <item android:id="@+id/Convocation"
+                        android:title="Convocation"/>
+                    <item android:id="@+id/AnnualReports"
+                        android:title="AnnualReports"/>
+
+
+                </menu>
+            </item>
+
+
+
+            <item android:id="@+id/ProfesorInCharge"
+                android:title="Professor-in-Charge PUBLIC RELATION"/>
+            <item android:id="@+id/OtherInstitutefuncutionary"
+                android:title="Other Institute funcutionary"/>
+            <item android:id="@+id/RecruitmentsRules"
+                android:title="Recruitments Rule and Promotions"/>
+            <item android:id="@+id/AlumniEndowment"
+                android:title="Alumni Endowment"/>
+            <item android:id="@+id/FormerDirectors"
+                android:title="FormerDirectors"/>
+
+            <item android:id="@+id/MOUs"
+                android:title="MOUs">
+                <menu>
+                    <item android:id="@+id/CurrentMOUs"
+                        android:title="CurrentMOUs"/>
+                    <item android:id="@+id/PastMOUs"
+                        android:title="Past MOUs"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/InstituteSong"
+                android:title="InstituteSong"/>
+
+        </menu>
+    </item>
+    </group>
+
+    <item
+        android:id="@+id/Admission"
+        android:title="Admission">
+        <menu>
+            <item android:id="@+id/InternationalRelations"
+                android:title="InternationalRelations"/>
+            <item android:id="@+id/Undergraduate"
+                android:title="Undergraduate">
+                <menu>
+                    <item android:id="@+id/JointEntranceExamination"
+                        android:title="JointEntranceExamination"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/Postgraduate"
+                android:title="Postgraduate">
+                <menu>
+                    <item android:id="@+id/AdmissionNotice"
+                        android:title="Admission Notice"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/Doctoral"
+                android:title="Doctoral">
+                <menu>
+                    <item android:id="@+id/DoctoralAdmissionNotice"
+                        android:title="Admission Notice"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/FAQ"
+                android:title="FAQ"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Academics"
+        android:title="Academics">
+        <menu>
+            <item android:id="@+id/AcademicAffair"
+                android:title="Academic Affair"/>
+            <item android:id="@+id/AcademicCalendar"
+                android:title="Academic Calendar"/>
+            <item android:id="@+id/AcdemicForms"
+                android:title="Academic Forms"/>
+            <item android:id="@+id/GIAN"
+                android:title="GIAN"/>
+            <item android:id="@+id/Faculty"
+                android:title="Faculty"/>
+            <item android:id="@+id/CEP"
+                android:title="CEP"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Department"
+        android:title="Department"
+        >
+        <menu>
+            <item android:id="@+id/EngineeringTechnology"
+                android:title="Engineering and technology"
+                android:icon="@drawable/engineeringtechnology">
+                <menu>
+                    <item android:id="@+id/ComputerScience"
+                        android:title="Computer science Engineering"/>
+                    <item android:id="@+id/Electrical"
+                        android:title="Electrical Engineering"/>
+                    <item android:id="@+id/MechanicalEngineering"
+                        android:title="Mechanical Engineerin"/>
+                    <item android:id="@+id/CivilandEnviroment"
+                        android:title="Civil and enviroment Engineering"/>
+                    <item android:id="@+id/ChemicalandBiochemical"
+                        android:title="chemical and Biochemical"/>
+                    <item android:id="@+id/MetallurgicalandMaterials"
+                        android:title="Metallurgical and Materials"/>
+                </menu>
+            </item>
+            <item android:id="@+id/BasicScience"
+                android:title="BasicScience"/>
+            <item android:id="@+id/HumanitiesSocialScience"
+                android:title="Humanities and SocialScience"/>
+            <item android:id="@+id/Computercenter"
+                android:title="computer Center"/>
+            <item android:id="@+id/endageredlanguage"
+                android:title="Centre for Endangered Language studies"/>
+            <item android:id="@+id/EarthquakeEngineering"
+                android:title="Centre for Earthquake Engineering Research"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Research"
+        android:title="Research">
+        <menu>
+            <item android:id="@+id/RDHome"
+                android:title="R and d Home"/>
+            <item android:id="@+id/PatentIPR"
+                android:title="Patent and IPR"/>
+            <item android:id="@+id/People"
+                android:title="people"/>
+            <item android:id="@+id/ReserchProjectandResources"
+                android:title="Reserch Project and Resources"/>
+            <item android:id="@+id/ResearchScholarsDay"
+                android:title="Research Scholars' Day">
+                <menu>
+                    <item android:id="@+id/RSD2022"
+                        android:title="RSD-2022"/>
+                    <item android:id="@+id/RSD2021"
+                        android:title="RSD-2021"/>
+                    <item android:id="@+id/RSD2020"
+                        android:title="RSD-2020"/>
+                    <item android:id="@+id/RSD2019"
+                        android:title="RSD-2019"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/RulesandRegulations"
+                android:title="Rules and regulations"/>
+            <item android:id="@+id/latestNewsUpdate"
+                android:title="Latest News/update"/>
+            <item android:id="@+id/LatestThesisSubmitted"
+                android:title="Latest Thesis Submitted"/>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/ServicesAmenties"
+        android:title="Services Amenties">
+        <menu>
+            <item android:id="@+id/CentralLibrary"
+                android:title="Central Library"/>
+            <item android:id="@+id/StoresandPurchases"
+                android:title="Stores and Purchases">
+                <menu>
+                    <item android:id="@+id/NIQS"
+                        android:title="NIQS"/>
+                    <item android:id="@+id/Tenders"
+                        android:title="Tenders"/>
+                    <item android:id="@+id/ArchievedNIQs"
+                        android:title="Archieved NIQs"/>
+                    <item android:id="@+id/ArchievedTenders"
+                        android:title="Archieved Tenders"/>
+                </menu>
+            </item>
+            <item android:id="@+id/SportsCell"
+                android:title="Sports Cell"/>
+            <item android:id="@+id/HindiCell"
+                android:title="Hindi Cell"/>
+            <item android:id="@+id/JEECell"
+                android:title="JEE Cell"/>
+            <item android:id="@+id/GuestHouse"
+                android:title="Guest House"/>
+            <item android:id="@+id/MedicalUnit"
+                android:title="Medical Unit"/>
+            <item android:id="@+id/InstituteWorksDepartment"
+                android:title="InstituteWorksDepartment"/>
+            <item android:id="@+id/UBACell"
+                android:title="UBA Cell"/>
+            <item android:id="@+id/WellnessCentre"
+                android:title="Wellness Centre"/>
+            <item android:id="@+id/AccountsandAudit"
+                android:title="Accounts and Audit">
+                <menu>
+                    <item android:id="@+id/VATCertificate"
+                        android:title="VAT Certificate"/>
+
+                </menu>
+            </item>
+            <item android:id="@+id/SAIF"
+                android:title="SAIF"/>
+            <item android:id="@+id/NationalKnowledgeNetwork"
+                android:title="NationalKnowledgeNetwork">
+                <menu>
+                    <item android:id="@+id/NKNPeople"
+                        android:title="People"/>
+
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Students"
+        android:title="Students">
+        <menu>
+            <item android:id="@+id/TrainingandPlacementCell"
+                android:title="Training and PlacementCell"/>
+            <item android:id="@+id/StudentsGymkhana"
+                android:title="Students' Gymkhana"/>
+            <item android:id="@+id/SportsandCulturalEvents"
+                android:title="Sports and cultural Events"/>
+            <item android:id="@+id/Entrepreneurship"
+                android:title="Entrepreneurship"/>
+            <item android:id="@+id/IEEEStudetnBranch"
+                android:title="IEEE Student Branch"/>
+            <item android:id="@+id/IEEENTCStudentchapter"
+                android:title="IEEE NTC student chapter"/>
+            <item android:id="@+id/Hostels"
+                android:title="hostels"/>
+            <item android:id="@+id/StudentActivityCenter"
+                android:title="student Activity center"/>
+            <item android:id="@+id/NationalServiceScheme"
+                android:title="National Service Scheme"/>
+            <item android:id="@+id/RuralTechnologyDevelopmentClub"
+                android:title="Rural Technology Department club(RTDC)"/>
+            <item android:id="@+id/MeritCumMeans"
+                android:title="Merit-Cum-Means(MCM) Scholarship"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/IncubationCentre"
+        android:title="Incubation Centre"/>
+    <item
+        android:id="@+id/TBI"
+        android:title="TBI"/>
+    <item
+        android:id="@+id/TIH"
+        android:title="TIH"/>
+    <item
+        android:id="@+id/QIP"
+        android:title="QIP"/>
+    <item
+        android:id="@+id/COE"
+        android:title="COE"/>
+    <item
+        android:id="@+id/Contact"
+        android:title="Contact"/>
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/Titlelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000305"
+       >
+    <TextView
+        android:id="@+id/noticetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginStart="10dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            >
+        <TextView
+            android:id="@+id/noticetime"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23:30"
+            android:layout_marginStart="10dp"
+            />
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/noticedate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="06-10-2022"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Imagelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26070707"
+        >
+        <ImageView
+            android:id="@+id/noticeimage"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+    <LinearLayout
+        android:id="@+id/Descriptionlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26070707"
+       >
+        <TextView
+            android:id="@+id/noticedescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:text="Notice Description jnbdfkdf kjkjkujdfkhkuknkc kjbjh h jhbjhb df jbhdf iudfs  k dfh
+jhb dfkifd hbfh dfb hdfjh jfdsbd jhdfbdf jdffdj  jdf jdsjf dfuguygeru fugdugfug ufguf uer ud eurgefug u udsgf ugfu sure d
+"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/Pdflayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#088E0D">
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pdf" />
+
+        <TextView
+            android:id="@+id/pdfname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="45dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/white"
+            android:text="Pdf Name"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/pdfdownload"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/ic_baseline_arrow_downward_24" />
+
+    </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="#66000000"/>
+
+</LinearLayout>

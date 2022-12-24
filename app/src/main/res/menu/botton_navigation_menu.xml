@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navHome"
+        android:title="Home"
+        android:icon="@drawable/nav_home"
+
+        />
+    <item android:id="@+id/navNoticeBoard"
+        android:title="Notice Board"
+        android:icon="@drawable/noticeboard"
+        />
+    <item android:id="@+id/navMediaCoverage"
+        android:title="Media Coverage"
+        android:icon="@drawable/mediacoverage"
+        />
+    <item android:id="@+id/navNIRF"
+        android:title="NIRF | ARIIA"
+        android:icon="@drawable/ic_nirf"
+        />
+    <item android:id="@+id/navMap"
+        android:title="Map"
+        android:icon="@drawable/ic_baseline_map_24"
+        />
+
+
+</menu>

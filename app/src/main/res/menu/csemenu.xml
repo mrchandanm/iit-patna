@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/CSE"
+        android:title="CSE"/>
+    <item android:id="@+id/CSEDirectory"
+        android:title="Directory"/>
+    <item android:id="@+id/CSECourse"
+        android:title="Courses"/>
+    <item android:id="@+id/CSENewsEvents"
+        android:title="News/Events"/>
+    <item android:id="@+id/CSEPeople"
+        android:title="People">
+
+        <menu>
+            <item android:id="@+id/CSEFaculty"
+                android:title="Faculty"/>
+            <item android:id="@+id/CSEStaff"
+                android:title="Staff"/>
+            <item android:id="@+id/CSEUGStudents"
+                android:title="UG Students">
+                <menu>
+                    <item android:id="@+id/CSEBtech2021"
+                        android:title="B.Tech 2021"/>
+                    <item android:id="@+id/CSEBtech2020"
+                        android:title="B.Tech 2020"/>
+                    <item android:id="@+id/CSEBtech2019"
+                        android:title="B.Tech 2019"/>
+                    <item android:id="@+id/CSEBtech2018"
+                        android:title="B.Tech 2018"/>
+                    <item android:id="@+id/CSEBtech2017"
+                        android:title="B.Tech 2017"/>
+                    <item android:id="@+id/CSEBtech2016"
+                        android:title="B.Tech 2016"/>
+                    <item android:id="@+id/CSEBtech2015"
+                        android:title="B.Tech 2015"/>
+                    <item android:id="@+id/CSEBtech2014"
+                        android:title="B.Tech 2014"/>
+                    <item android:id="@+id/CSEBtech2013"
+                        android:title="B.Tech 2013"/>
+                    <item android:id="@+id/CSEBtech2012"
+                        android:title="B.Tech 2012"/>
+                    <item android:id="@+id/CSEBtech2011"
+                        android:title="B.Tech 2011"/>
+                    <item android:id="@+id/CSEBtech2010"
+                        android:title="B.Tech 2010"/>
+                    <item android:id="@+id/CSEBtech2009"
+                        android:title="B.Tech 2009"/>
+                </menu>
+            </item>
+            <item android:id="@+id/CSEPGStudents"
+                android:title="PG Students"/>
+            <item android:id="@+id/CSEPhdAlumini"
+                android:title="Ph.D Alumini"/>
+            <item android:id="@+id/CSEPhdStudents"
+                android:title="Ph.D Students"/>
+
+
+        </menu>
+    </item>
+    <item android:id="@+id/EEFacilities"
+        android:title="Facilities"/>
+    <item android:id="@+id/EENewsandEvents"
+        android:title="News and Events"/>
+    <item android:id="@+id/EEAdmission"
+        android:title="Admission"/>
+    <item android:id="@+id/EEResearch"
+        android:title="Research"/>
+    <item android:id="@+id/EEUsefulLinks"
+        android:title="Useful links"/>
+    <item android:id="@+id/EEAwardsRecognition"
+        android:title="Awards and recognition"/>
+    <item android:id="@+id/EEOppurtinities"
+        android:title="Oppurtinities"/>
+
+
+
+
+
+
+</menu>

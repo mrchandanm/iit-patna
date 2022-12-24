@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical Engineering"
+               android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="35sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+
+                android:textColor="#DD0909"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Department of Electrical Engineering (EE) has been evolving since the inception of IIT Patna in the year 2008. The major objective of the department is to impart high quality education and to encourage the students, comprising B.Tech, M.Tech and PhD, in pursuing research. The department offers B. Tech in Electrical and Electronics Engineering, two M. Tech programs (1. Communication System Engineering, 2. VLSI and Embedded Systems) and Ph.D. program in various specialized areas of Electrical Engineering. The major research areas of the department include Communications, Optoelectronics, Signal Processing, Image and Video Processing, VLSI and Embedded System, RF and Microwave, Electric Drives, Solid state Devices, Power Systems and Power Electronics, Control Systems and Instrumentation. EE Department is executing research projects sponsored by external funding agencies."
+                android:textSize="18sp"
+                android:paddingStart="12dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vision"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="16dp"
+                android:paddingTop="12dp"
+                android:textColor="#DD0909"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The department is committed to engage in high quality research and pursuit of excellence in teaching. The faculty members of the department are actively involved in research and development in challenging areas of both theory and experiment. The labs established here have been well equipped with the latest equipment. The Department has online access to IEEE Explore digital library, IEL, Science Direct, Springer and other online journals. High End Computational Servers and Software’s like MATLAB, GAMS, CAD Tools are available with the Department in order to accelerate the research. Instructional laboratories for Basic Electronics, Analog Electronics and Digital Electronics are fully operational. Advanced laboratories like Communication, Digital Signal Processing, Embedded Systems, VLSI, Electrical Machines, Power Electronics and Power Systems are also fully operational with advanced technologies, hardware equipments and software. Department has a number of ongoing/approved projects of total amount 55.0 Crore. The Department undertakes a continuous process of setting up experimental and computational facilities for taking up research &amp; development and consultancy activities in various fields as also to produce state-of-the-art research output."
+                android:textSize="18sp"
+                android:paddingStart="12dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

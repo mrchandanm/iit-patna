@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IIT Patna</string>
+    <string name="EnglishName">Indian Institute Of Technology Patna</string>
+    <string name="HindiName">भारतीय प्रौद्योगिकी संस्थान पटना</string>
+    <string name="OpenDrawer">Open Navigation Drawer</string>
+    <string name="CloseDrawer">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
